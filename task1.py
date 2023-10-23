@@ -20,3 +20,8 @@ Example:
 10
 ...
 """
+current_value=2
+increment=2
+while current_value<=20:
+    print(current_value)
+    current_value+=increment

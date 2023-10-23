@@ -13,3 +13,12 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+
+num1,num2=1,1
+print(num1)
+print(num2)
+while num2<=100:
+    nextnum= num1 + num2
+    print(nextnum)
+    num1=num2
+    num2=nextnum
